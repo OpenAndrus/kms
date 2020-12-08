@@ -2,14 +2,14 @@
 > KMS激活服务，slmgr命令激活Windows系统、Office
 
 ### 激活步骤（管理员命令执行）
-1. 设置服务　　`slmgr -skms kms.zme.ink`
+1. 设置服务　　`slmgr -skms kms.netnr.eu.org`
 2. 安装密钥　　`slmgr -ipk 版本对应秘钥`
 3. 激活系统　　`slmgr -ato`
 
 ### 可用服务
 - `kms.cangshui.net`
-- `kms.zme.ink` 推荐使用，维护 **`CNAME`** 指向有效的服务
-+ `telnet kms.zme.ink 1688` 测试服务是否可用
+- `kms.netnr.eu.org` 推荐使用，维护 **`CNAME`** 指向有效的服务
++ `telnet kms.netnr.eu.org 1688` 测试服务是否可用
 
 ### [vlmcs-Windows](https://s1.zme.ink/static/app/vlmcs-Windows.zip)
 
